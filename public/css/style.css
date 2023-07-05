@@ -1,0 +1,192 @@
+body
+{
+    background: #FAFAFA;
+}
+
+div
+{
+    box-sizing: border-box;
+}
+
+.header
+{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, #30C1E6, #90CBFB);
+    position: fixed;
+}
+
+.header .title
+{
+    color: white;
+    margin: auto;
+}
+
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+
+.notice
+{
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    background: white;
+    box-shadow: -5px -5px 8px #f2f2f2, 5px 5px 8px #f2f2f2;
+    margin: 75px auto 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.btnList
+{
+    width: 100%;
+    height: auto;
+}
+
+.btnList .title
+{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+}
+
+.btnList .btn
+{
+    width: 100%;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: -5px -5px 8px #f2f2f2, 5px 5px 8px #f2f2f2;
+}
+
+.btnList .btn .btn_icon
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.btnList .btn .btn_icon img
+{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btnList .btn .btn_content
+{
+    width: calc(100% - 105px);
+    height: 80px;
+    padding: 10px 0;
+    margin-left: auto;
+}
+
+.btnList .btn .btn_content b
+{
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+}
+
+.btnList .btn .btn_content p
+{
+    height: 30px;
+    line-height: 30px;
+}
+
+.analysis_box
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.result_box
+{
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+.result_box .video
+{
+    width: 100%;
+    height: 200px;
+    box-shadow: -5px -5px 8px #f2f2f2, 5px 5px 8px #f2f2f2;
+    margin-bottom: 20px;
+}
+
+.result_box video
+{
+    width: 100%;
+    height: 100%;
+}
+
+.result_box .img
+{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.result_box .img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.result_box .img b
+{
+    display: block;
+    text-align: center;
+}
+
+.imagesBox
+{
+    width: 100%;
+    height: auto;
+}
+
+.imageList
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    box-shadow: -5px -5px 8px #f2f2f2, 5px 5px 8px #f2f2f2;
+}
+
+.imageList .img
+{
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+
+.imageList .img img
+{
+    width: 100%;
+    max-height:150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.imageList .btn
+{
+    width: 100%;
+    height: 50px;
+    display: block;
+    padding: 0 5%;
+}
